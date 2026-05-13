@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "test:vitest": "vitest run",
-    "test:jest": "jest"
+    "test:jest": "jest",
+    "update-snapshots": "jest -u && vitest -u"
   },
   "devDependencies": {
     "jest": "^30.4.2",
