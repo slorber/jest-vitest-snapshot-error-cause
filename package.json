@@ -1,0 +1,14 @@
+{
+  "name": "jest-vitest-snapshot-error-cause",
+  "version": "1.0.0",
+  "description": "Show different behaviors regarding Error Cause snapshots for Jest/Vitest",
+  "private": true,
+  "scripts": {
+    "test:vitest": "vitest run",
+    "test:jest": "jest"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2",
+    "vitest": "^4.1.6"
+  }
+}
